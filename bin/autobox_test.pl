@@ -27,7 +27,12 @@ GetOptions(
 my $prog = $0;
 $prog =~ s/^.*\///;
 
-## Code goes here
+use Moose::Autobox;
+
+my %hash;
+my @array;
+
+
 
 __END__
 
